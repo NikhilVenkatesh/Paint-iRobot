@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		318C45D41E4684D600C43B26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318C45D31E4684D600C43B26 /* AppDelegate.swift */; };
+		318C45D61E4684D600C43B26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318C45D51E4684D600C43B26 /* ViewController.swift */; };
+		318C45D91E4684D600C43B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318C45D71E4684D600C43B26 /* Main.storyboard */; };
+		318C45DB1E4684D600C43B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318C45DA1E4684D600C43B26 /* Assets.xcassets */; };
+		318C45DE1E4684D600C43B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318C45DC1E4684D600C43B26 /* LaunchScreen.storyboard */; };
+		318C45E91E4684D600C43B26 /* Paint_iRobotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318C45E81E4684D600C43B26 /* Paint_iRobotTests.swift */; };
+		318C45F41E4684D600C43B26 /* Paint_iRobotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318C45F31E4684D600C43B26 /* Paint_iRobotUITests.swift */; };
+		318C46021E48D2F800C43B26 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318C46011E48D2F800C43B26 /* DrawView.swift */; };
+		318C46041E48D37F00C43B26 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318C46031E48D37F00C43B26 /* Line.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		318C45E51E4684D600C43B26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 318C45C81E4684D600C43B26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 318C45CF1E4684D600C43B26;
+			remoteInfo = "Paint-iRobot";
+		};
+		318C45F01E4684D600C43B26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 318C45C81E4684D600C43B26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 318C45CF1E4684D600C43B26;
+			remoteInfo = "Paint-iRobot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		318C45D01E4684D600C43B26 /* Paint-iRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paint-iRobot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		318C45D31E4684D600C43B26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		318C45D51E4684D600C43B26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		318C45D81E4684D600C43B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		318C45DA1E4684D600C43B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		318C45DD1E4684D600C43B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		318C45DF1E4684D600C43B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		318C45E41E4684D600C43B26 /* Paint-iRobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paint-iRobotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		318C45E81E4684D600C43B26 /* Paint_iRobotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paint_iRobotTests.swift; sourceTree = "<group>"; };
+		318C45EA1E4684D600C43B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		318C45EF1E4684D600C43B26 /* Paint-iRobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paint-iRobotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		318C45F31E4684D600C43B26 /* Paint_iRobotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paint_iRobotUITests.swift; sourceTree = "<group>"; };
+		318C45F51E4684D600C43B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		318C46011E48D2F800C43B26 /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		318C46031E48D37F00C43B26 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		318C45CD1E4684D600C43B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318C45E11E4684D600C43B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318C45EC1E4684D600C43B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		318C45C71E4684D600C43B26 = {
+			isa = PBXGroup;
+			children = (
+				318C45D21E4684D600C43B26 /* Paint-iRobot */,
+				318C45E71E4684D600C43B26 /* Paint-iRobotTests */,
+				318C45F21E4684D600C43B26 /* Paint-iRobotUITests */,
+				318C45D11E4684D600C43B26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		318C45D11E4684D600C43B26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				318C45D01E4684D600C43B26 /* Paint-iRobot.app */,
+				318C45E41E4684D600C43B26 /* Paint-iRobotTests.xctest */,
+				318C45EF1E4684D600C43B26 /* Paint-iRobotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		318C45D21E4684D600C43B26 /* Paint-iRobot */ = {
+			isa = PBXGroup;
+			children = (
+				318C45D31E4684D600C43B26 /* AppDelegate.swift */,
+				318C45D51E4684D600C43B26 /* ViewController.swift */,
+				318C46011E48D2F800C43B26 /* DrawView.swift */,
+				318C46031E48D37F00C43B26 /* Line.swift */,
+				318C45D71E4684D600C43B26 /* Main.storyboard */,
+				318C45DA1E4684D600C43B26 /* Assets.xcassets */,
+				318C45DC1E4684D600C43B26 /* LaunchScreen.storyboard */,
+				318C45DF1E4684D600C43B26 /* Info.plist */,
+			);
+			path = "Paint-iRobot";
+			sourceTree = "<group>";
+		};
+		318C45E71E4684D600C43B26 /* Paint-iRobotTests */ = {
+			isa = PBXGroup;
+			children = (
+				318C45E81E4684D600C43B26 /* Paint_iRobotTests.swift */,
+				318C45EA1E4684D600C43B26 /* Info.plist */,
+			);
+			path = "Paint-iRobotTests";
+			sourceTree = "<group>";
+		};
+		318C45F21E4684D600C43B26 /* Paint-iRobotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				318C45F31E4684D600C43B26 /* Paint_iRobotUITests.swift */,
+				318C45F51E4684D600C43B26 /* Info.plist */,
+			);
+			path = "Paint-iRobotUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		318C45CF1E4684D600C43B26 /* Paint-iRobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 318C45F81E4684D600C43B26 /* Build configuration list for PBXNativeTarget "Paint-iRobot" */;
+			buildPhases = (
+				318C45CC1E4684D600C43B26 /* Sources */,
+				318C45CD1E4684D600C43B26 /* Frameworks */,
+				318C45CE1E4684D600C43B26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Paint-iRobot";
+			productName = "Paint-iRobot";
+			productReference = 318C45D01E4684D600C43B26 /* Paint-iRobot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		318C45E31E4684D600C43B26 /* Paint-iRobotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 318C45FB1E4684D600C43B26 /* Build configuration list for PBXNativeTarget "Paint-iRobotTests" */;
+			buildPhases = (
+				318C45E01E4684D600C43B26 /* Sources */,
+				318C45E11E4684D600C43B26 /* Frameworks */,
+				318C45E21E4684D600C43B26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				318C45E61E4684D600C43B26 /* PBXTargetDependency */,
+			);
+			name = "Paint-iRobotTests";
+			productName = "Paint-iRobotTests";
+			productReference = 318C45E41E4684D600C43B26 /* Paint-iRobotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		318C45EE1E4684D600C43B26 /* Paint-iRobotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 318C45FE1E4684D600C43B26 /* Build configuration list for PBXNativeTarget "Paint-iRobotUITests" */;
+			buildPhases = (
+				318C45EB1E4684D600C43B26 /* Sources */,
+				318C45EC1E4684D600C43B26 /* Frameworks */,
+				318C45ED1E4684D600C43B26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				318C45F11E4684D600C43B26 /* PBXTargetDependency */,
+			);
+			name = "Paint-iRobotUITests";
+			productName = "Paint-iRobotUITests";
+			productReference = 318C45EF1E4684D600C43B26 /* Paint-iRobotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		318C45C81E4684D600C43B26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nikhil Venkatesh Dasari";
+				TargetAttributes = {
+					318C45CF1E4684D600C43B26 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					318C45E31E4684D600C43B26 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 318C45CF1E4684D600C43B26;
+					};
+					318C45EE1E4684D600C43B26 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 318C45CF1E4684D600C43B26;
+					};
+				};
+			};
+			buildConfigurationList = 318C45CB1E4684D600C43B26 /* Build configuration list for PBXProject "Paint-iRobot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 318C45C71E4684D600C43B26;
+			productRefGroup = 318C45D11E4684D600C43B26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				318C45CF1E4684D600C43B26 /* Paint-iRobot */,
+				318C45E31E4684D600C43B26 /* Paint-iRobotTests */,
+				318C45EE1E4684D600C43B26 /* Paint-iRobotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		318C45CE1E4684D600C43B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318C45DE1E4684D600C43B26 /* LaunchScreen.storyboard in Resources */,
+				318C45DB1E4684D600C43B26 /* Assets.xcassets in Resources */,
+				318C45D91E4684D600C43B26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318C45E21E4684D600C43B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318C45ED1E4684D600C43B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		318C45CC1E4684D600C43B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318C45D61E4684D600C43B26 /* ViewController.swift in Sources */,
+				318C46041E48D37F00C43B26 /* Line.swift in Sources */,
+				318C45D41E4684D600C43B26 /* AppDelegate.swift in Sources */,
+				318C46021E48D2F800C43B26 /* DrawView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318C45E01E4684D600C43B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318C45E91E4684D600C43B26 /* Paint_iRobotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318C45EB1E4684D600C43B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318C45F41E4684D600C43B26 /* Paint_iRobotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		318C45E61E4684D600C43B26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 318C45CF1E4684D600C43B26 /* Paint-iRobot */;
+			targetProxy = 318C45E51E4684D600C43B26 /* PBXContainerItemProxy */;
+		};
+		318C45F11E4684D600C43B26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 318C45CF1E4684D600C43B26 /* Paint-iRobot */;
+			targetProxy = 318C45F01E4684D600C43B26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		318C45D71E4684D600C43B26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				318C45D81E4684D600C43B26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		318C45DC1E4684D600C43B26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				318C45DD1E4684D600C43B26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		318C45F61E4684D600C43B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		318C45F71E4684D600C43B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		318C45F91E4684D600C43B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Paint-iRobot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Manmus.Paint-iRobot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		318C45FA1E4684D600C43B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Paint-iRobot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Manmus.Paint-iRobot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		318C45FC1E4684D600C43B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Paint-iRobotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Manmus.Paint-iRobotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paint-iRobot.app/Paint-iRobot";
+			};
+			name = Debug;
+		};
+		318C45FD1E4684D600C43B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Paint-iRobotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Manmus.Paint-iRobotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paint-iRobot.app/Paint-iRobot";
+			};
+			name = Release;
+		};
+		318C45FF1E4684D600C43B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Paint-iRobotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Manmus.Paint-iRobotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Paint-iRobot";
+			};
+			name = Debug;
+		};
+		318C46001E4684D600C43B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Paint-iRobotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Manmus.Paint-iRobotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Paint-iRobot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		318C45CB1E4684D600C43B26 /* Build configuration list for PBXProject "Paint-iRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318C45F61E4684D600C43B26 /* Debug */,
+				318C45F71E4684D600C43B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		318C45F81E4684D600C43B26 /* Build configuration list for PBXNativeTarget "Paint-iRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318C45F91E4684D600C43B26 /* Debug */,
+				318C45FA1E4684D600C43B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		318C45FB1E4684D600C43B26 /* Build configuration list for PBXNativeTarget "Paint-iRobotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318C45FC1E4684D600C43B26 /* Debug */,
+				318C45FD1E4684D600C43B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		318C45FE1E4684D600C43B26 /* Build configuration list for PBXNativeTarget "Paint-iRobotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318C45FF1E4684D600C43B26 /* Debug */,
+				318C46001E4684D600C43B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 318C45C81E4684D600C43B26 /* Project object */;
+}
